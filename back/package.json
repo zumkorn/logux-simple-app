@@ -1,0 +1,10 @@
+{
+  "name": "server-logux",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@logux/server": "^0.8.6"
+  }
+}
