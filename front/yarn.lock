@@ -1228,32 +1228,27 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@logux/client@^0.8.3", "@logux/client@^0.8.5":
+"@logux/client@logux/client#next":
   version "0.8.5"
-  resolved "https://registry.yarnpkg.com/@logux/client/-/client-0.8.5.tgz#89540254f1d73ee394be23110651ee916d4429b7"
-  integrity sha512-AEgsLoPI2wBYKPTQ5OogDClTykVqzZ+MMYnUf+ND4aNh5mXzTm/PitVVGtSKlaRWn21Druu8muXhNp76NwGULA==
+  resolved "https://codeload.github.com/logux/client/tar.gz/3b461367f3d553ddcaf166361138d1daa30fe2ff"
   dependencies:
-    "@logux/core" "^0.5.3"
-    browser-supports-log-styles "^1.1.7"
-    nanoevents "^5.1.5"
-    nanoid "^3.1.3"
+    "@logux/core" logux/core#next
+    nanoevents "^5.1.7"
+    nanoid "^3.1.9"
 
-"@logux/core@^0.5.3":
+"@logux/core@logux/core#next":
   version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@logux/core/-/core-0.5.3.tgz#e3b6ef07b33996d13d2cf34ff67e3f0e76c9f060"
-  integrity sha512-IRL8Wxj26eZfCFBxK01wwfFIOyYHw4cXeR+a77RFMlW60MrgdWu1CewbmHG9W5Lb9BYvSYvIfmUPdEt5XnUliQ==
+  resolved "https://codeload.github.com/logux/core/tar.gz/4fa80479152769c9518d1e006055865d0a4df1e9"
   dependencies:
-    nanoevents "^5.1.5"
+    nanoevents "^5.1.7"
 
-"@logux/redux@^0.6.2":
+"@logux/redux@logux/redux#next":
   version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@logux/redux/-/redux-0.6.2.tgz#c143735b3e9fbda4b96a1647555173d60c518ea2"
-  integrity sha512-YT4pCglOYHSqoivxXhp6EQ/VFUholZ/ramd3rQbPtuUXWaEzz8FHDjz7x+25S6Z9YrnBCHiUPSP+428VRUkOpA==
+  resolved "https://codeload.github.com/logux/redux/tar.gz/351aba5988119726c75cc00ccec5ac0506b0ada4"
   dependencies:
-    "@logux/client" "^0.8.3"
-    "@logux/core" "^0.5.3"
-    "@types/react" "^16.9.34"
-    nanoevents "^5.1.5"
+    "@logux/client" logux/client#next
+    "@logux/core" logux/core#next
+    nanoevents "^5.1.7"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -1532,7 +1527,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.34":
+"@types/react@*":
   version "16.9.35"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.35.tgz#a0830d172e8aadd9bd41709ba2281a3124bbd368"
   integrity sha512-q0n0SsWcGc8nDqH2GJfWQWUOmZSJhXV64CjVN5SvcNti3TdEaA3AH0D8DwNmMdzjMAC/78tB8nAZIlV8yTz+zQ==
@@ -2469,11 +2464,6 @@ browser-resolve@^1.11.3:
   integrity sha512-exDi1BYWB/6raKHmDTCicQfTkqwN5fioMFV4j8BsfMU4R2DK/QfZfK7kOVkmWCNANf0snkBzqGqAJBao9gZMdQ==
   dependencies:
     resolve "1.1.7"
-
-browser-supports-log-styles@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/browser-supports-log-styles/-/browser-supports-log-styles-1.1.7.tgz#ad4718cd36b78d74a7b9d652e96d784c076b9366"
-  integrity sha1-rUcYzTa3jXSnudZS6W14TAdrk2Y=
 
 browserify-aes@^1.0.0, browserify-aes@^1.0.4:
   version "1.2.0"
@@ -6852,12 +6842,12 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
 
-nanoevents@^5.1.5:
+nanoevents@^5.1.7:
   version "5.1.7"
   resolved "https://registry.yarnpkg.com/nanoevents/-/nanoevents-5.1.7.tgz#4819a026268725fb0cbf45a36bd1a4ea2737e63b"
   integrity sha512-erZPLYnJMmzD5OeXX+ZrfaS+KwuclhvrHbx8okK89Pyb8omSubguKVFyJHlX7Q2k/F2mgv4QoH3cTDdua6j18g==
 
-nanoid@^3.1.3, nanoid@^3.1.9:
+nanoid@^3.1.9:
   version "3.1.9"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.9.tgz#1f148669c70bb2072dc5af0666e46edb6cd31fb2"
   integrity sha512-fFiXlFo4Wkuei3i6w9SQI6yuzGRTGi8Z2zZKZpUxv/bQlBi4jtbVPBSNFZHQA9PNjofWqtIa8p+pnsc0kgZrhQ==

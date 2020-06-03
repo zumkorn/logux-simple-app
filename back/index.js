@@ -8,8 +8,8 @@ const server = new Server(
   })
 )
 
-server.auth((userId, token) => {
-  console.log(userId, token)
+server.auth(({userId, token}) => {
+  console.log(userId, token);
   return true;
 })
 

@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@logux/client": "^0.8.5",
-    "@logux/redux": "^0.6.2",
+    "@logux/client": "logux/client#next",
+    "@logux/core": "logux/core#next",
+    "@logux/redux": "logux/redux#next",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
