@@ -13,4 +13,13 @@ server.auth(({userId, token}) => {
   return true;
 })
 
+server.type('some_action', {
+  async access (ctx) {
+    return true;
+  },
+  async process (ctx, action, meta) {
+    ctx.sendBack({ type: 'some_action/done', data: 123 })
+  }
+})
+
 server.listen()

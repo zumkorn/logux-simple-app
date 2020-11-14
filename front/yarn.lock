@@ -1228,27 +1228,34 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@logux/client@logux/client#next":
-  version "0.8.5"
-  resolved "https://codeload.github.com/logux/client/tar.gz/3b461367f3d553ddcaf166361138d1daa30fe2ff"
+"@logux/client@^0.9.2", "@logux/client@logux/client":
+  version "0.9.2"
+  resolved "https://codeload.github.com/logux/client/tar.gz/3d0b1c462eabfa578122bf2603cf5e48e5b25c17"
   dependencies:
-    "@logux/core" logux/core#next
-    nanoevents "^5.1.7"
-    nanoid "^3.1.9"
+    "@logux/core" "^0.6.2"
+    nanoevents "^5.1.8"
+    nanoid "^3.1.12"
 
-"@logux/core@logux/core#next":
-  version "0.5.3"
-  resolved "https://codeload.github.com/logux/core/tar.gz/4fa80479152769c9518d1e006055865d0a4df1e9"
-  dependencies:
-    nanoevents "^5.1.7"
-
-"@logux/redux@logux/redux#next":
+"@logux/core@^0.6.2":
   version "0.6.2"
-  resolved "https://codeload.github.com/logux/redux/tar.gz/351aba5988119726c75cc00ccec5ac0506b0ada4"
+  resolved "https://registry.yarnpkg.com/@logux/core/-/core-0.6.2.tgz#5065b9179508d2b599d1b286c368063203a9df48"
+  integrity sha512-yn8WSSVvb6Fn89Rnt7FCGR1VDfn37/V/zemYNwwX5QPjShVUVS8ueQU+s6WGfxuXuvOzPSZnMR7dY5Q9QmatmA==
   dependencies:
-    "@logux/client" logux/client#next
-    "@logux/core" logux/core#next
-    nanoevents "^5.1.7"
+    nanoevents "^5.1.8"
+
+"@logux/core@logux/core":
+  version "0.6.2"
+  resolved "https://codeload.github.com/logux/core/tar.gz/c47f56d835be43cc7b843a9865ee9cc9160c21ff"
+  dependencies:
+    nanoevents "^5.1.8"
+
+"@logux/redux@logux/redux":
+  version "0.7.1"
+  resolved "https://codeload.github.com/logux/redux/tar.gz/f1912b4ea0b3941896633c5375168a579b908e32"
+  dependencies:
+    "@logux/client" "^0.9.2"
+    "@logux/core" "^0.6.2"
+    nanoevents "^5.1.8"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -6842,10 +6849,15 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
 
-nanoevents@^5.1.7:
-  version "5.1.7"
-  resolved "https://registry.yarnpkg.com/nanoevents/-/nanoevents-5.1.7.tgz#4819a026268725fb0cbf45a36bd1a4ea2737e63b"
-  integrity sha512-erZPLYnJMmzD5OeXX+ZrfaS+KwuclhvrHbx8okK89Pyb8omSubguKVFyJHlX7Q2k/F2mgv4QoH3cTDdua6j18g==
+nanoevents@^5.1.8:
+  version "5.1.10"
+  resolved "https://registry.yarnpkg.com/nanoevents/-/nanoevents-5.1.10.tgz#9165199eed228c4787086dd1ea579b64257b8f8e"
+  integrity sha512-QOE78g63vQ7V1JzhOLP8UNlaLOF/llDtfUhCj9GlbhQQc0YdPi5GNJKZdeWE0fvDtGF39un6uSf7RObeBm0eAg==
+
+nanoid@^3.1.12:
+  version "3.1.16"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.16.tgz#b21f0a7d031196faf75314d7c65d36352beeef64"
+  integrity sha512-+AK8MN0WHji40lj8AEuwLOvLSbWYApQpre/aFJZD71r43wVRLrOYS4FmJOPQYon1TqB462RzrrxlfA74XRES8w==
 
 nanoid@^3.1.9:
   version "3.1.9"

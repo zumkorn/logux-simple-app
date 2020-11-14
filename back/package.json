@@ -5,6 +5,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@logux/server": "logux/server#next"
+    "@logux/server": "logux/server"
   }
 }
